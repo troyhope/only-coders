@@ -18,6 +18,12 @@ Once the project has successfully built, run:
 
 npm start
 
+# Technologies
+
+- **Next.js (React):** A React-based framework that enables functionality such as server-side rendering and generating static websites for React based web applications.
+- **Bootstrap and CSS Modules:** Bootstrap provides pre-built, responsive design components, while CSS Modules allow for modular and reusable CSS styling.
+- **MongoDB:** A NoSQL database that provides high performance, high availability, and easy scalability.
+
 # Level 1: Dashboard
 
 In this level, a dashboard layout is established utilising the new app router from Next.js. The project structure and the use of server and client components are critical in this setup. Here's a detailed breakdown:
