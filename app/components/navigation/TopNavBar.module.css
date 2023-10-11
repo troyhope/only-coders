@@ -1,0 +1,147 @@
+.navbar {
+  background-color: #5d5df5 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.brandText {
+  margin-right: 12px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.navLinkText {
+  font-size: 11px;
+  color: white;
+}
+
+.dropdownToggle {
+  font-size: 11px;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.navLinkWrapper {
+  margin-right: 20px !important;
+}
+
+.navDropdownIcon > a::after {
+  content: none !important;
+  display: none !important;
+}
+
+.customIcon {
+  display: inline-block;
+  margin-left: 5px;
+  transform: rotate(90deg);
+}
+
+.searchInput {
+  border: none;
+  box-shadow: none;
+  font-size: 12px;
+  padding: 10px;
+  background-color: #4b4ac4;
+}
+
+.searchInput::placeholder {
+  color: #7a79ed;
+}
+
+.inputGroup {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.inputGroupText {
+  border: none;
+  background-color: #4b4ac4;
+  box-shadow: none;
+  color: #7a79ed;
+  border-radius: 10px;
+}
+
+.loginBtn {
+  background: #00d2e0;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 10px;
+  padding: 10px 18px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.loginBtn:hover {
+  background: transparent;
+  border-color: #ffffff;
+}
+
+.collapsedMenu {
+  background-color: #5d5df5;
+  margin-top: 11px;
+  width: 100%;
+  padding: 20px;
+}
+
+.gridIcon {
+  display: none;
+}
+
+.searchInput:focus {
+  background-color: #4b4ac4;
+  outline: none;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 58px;
+  }
+
+  .gridIcon {
+    display: block;
+  }
+  .searchInput {
+    width: 400px !important;
+    color: #7a79ed !important;
+    border-radius: 10px;
+  }
+
+  .searchInput::placeholder {
+    color: #7a79ed;
+  }
+
+  .dropdownToggle {
+    font-size: 11px;
+    color: white;
+    border: none;
+    background: none;
+    margin-left: 10px;
+  }
+
+  .loginBtn {
+    margin-top: 0;
+    width: auto;
+  }
+
+  .navLinkText {
+    font-size: 11px;
+    line-height: 3;
+    color: white;
+  }
+
+  .collapsedMenu {
+    padding: 0px;
+    margin-top: 0px;
+  }
+
+  .btnContainer {
+    padding: 10px 5px;
+  }
+}

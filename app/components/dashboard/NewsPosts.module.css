@@ -1,0 +1,69 @@
+.newsPostCard {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.userInfo {
+  margin-left: 10px;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.blueTick {
+  color: blue;
+  margin-right: 5px;
+}
+
+.proMemberLabel {
+  background-color: #5d5df5;
+  padding: 2px 5px;
+  color: white;
+  font-size: 8px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.blurb {
+  font-size: 12px;
+}
+
+.timestamp {
+  color: gray;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.messageContent {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: gray;
+  font-size: 12px;
+}
+
+.divider {
+  border: 0;
+  border-top: 2px solid #e7e8ee;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentAndShareCounts {
+  color: black;
+  font-size: 12px;
+}
